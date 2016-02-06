@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected  void onResume(){
+        super.onResume();
         Toast.makeText(this, resumeMsg, Toast.LENGTH_LONG).show();
         Log.d(resumeMsg, resumeMsg);
     }
